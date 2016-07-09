@@ -9,7 +9,7 @@
 title: Thillai Narayanan
 email: judearasu@gmail.com
 description: Web Engineer.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://tharas.pw" # the base hostname & protocol for your site
 twitter_username: judearasu
 github_username:  judearasu
