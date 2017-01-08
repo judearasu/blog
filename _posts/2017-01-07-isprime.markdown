@@ -4,5 +4,38 @@ title:  "Determine if a number is a prime or not via Javascript"
 date:   2017-01-07 10:36:56 -0400
 categories: prime algorithm maths
 ---
-In this post, i thought of brushing up my javascript and analytical skills via a set of mathematical problems. There by i begins with finding
-a number is prime or not?
+In this post, i thought of brushing up my javascript and analytical skills via a set of mathematical problems. There by i begins with finding a number is prime or not?.To know more about prime look into https://en.wikipedia.org/wiki/Prime_number
+
+After looking at some solutions i stick with this.
+
+## Key things to be in mind:
+* it has exactly two positive divisors, 1 and the number itself.
+* Use Square root to reduce iteration
+
+{% highlight javascript %}
+var primeNumber = (function() {
+  var divisor = 2;
+  return {isPrime: isPrime};
+  function isPrime(val){
+    if(val === divisor){
+      return true;
+    }
+    if(val === 1){
+      return false;
+    }
+    var sqrt = Math.sqrt(val);
+    while(divisor <= sqrt){
+      if(val % divisor === 0){
+        return false;
+      }
+      divisor ++;
+    }
+    return true;
+  }
+
+})();
+{% endhighlight %}
+
+
+
+
