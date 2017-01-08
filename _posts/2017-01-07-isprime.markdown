@@ -1,2 +1,8 @@
+---
+layout: post
+title:  "Determine if a number is a prime or not via Javascript"
+date:   2017-01-07 10:36:56 -0400
+categories: prime algorithm maths
+---
 In this post, i thought of brushing up my javascript and analytical skills via a set of mathematical problems. There by i begins with finding
 a number is prime or not?
