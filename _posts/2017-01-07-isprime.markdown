@@ -35,7 +35,8 @@ var primeNumber = (function() {
 
 })();
 ```
-
+[SourceCode](https://github.com/judearasu/dsa/blob/master/basics/primeNumber.js "IsPrime")
+[TestCoverage](https://github.com/judearasu/dsa/blob/master/tests/primeNumber.spec.js "IsPrimeTestSpec")
 
 
 
