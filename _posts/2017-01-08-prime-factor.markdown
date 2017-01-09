@@ -5,7 +5,7 @@ date:   2017-01-08 22:01:56 -0400
 categories: dsa
 ---
 In this post, i tried with finding the prime factors.
-For more clarity and explanation look into https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples/pre-algebra-prime-factorization-prealg/v/prime-factorization
+For more clarity and explanation look into [Khan Academy - Prime Factorization](https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples/pre-algebra-prime-factorization-prealg/v/prime-factorization) 
 
 ```javascript
 var primeFactors = (function() {
